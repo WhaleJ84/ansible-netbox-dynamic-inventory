@@ -4,6 +4,7 @@ validate_certs: false
 group_by:
   - device_roles
   - sites
+  - tag
 device_query_filters:
   - has_primary_ip: 'true'
 config_context: true
